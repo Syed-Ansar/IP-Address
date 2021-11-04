@@ -15,7 +15,7 @@ const Card = () => {
         <div className=' pl-1.5 px-2'>
           <div className='card md:text-[10px]'>location</div>
           <div className='md:text-[20px]'>
-            {location && location.region ? location.region : 'US'}
+            {location && location.region ? location.region : 'United States'}
           </div>
         </div>
         <div className='vl hidden md:inline-block'></div>
