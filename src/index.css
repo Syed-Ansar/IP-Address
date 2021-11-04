@@ -1,0 +1,15 @@
+.card {
+  @apply text-[8px] text-gray-400 font-medium uppercase tracking-widest;
+}
+.vl {
+  border-left: 0.5px solid rgba(226, 219, 219, 0.945);
+  height: 60px;
+}
+.leaflet.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
